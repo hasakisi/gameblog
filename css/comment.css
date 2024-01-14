@@ -1,0 +1,53 @@
+body {
+    background-color: gray;
+}
+
+textarea {
+    width:400px;
+    height: 80px;
+    background-color: #fff;
+    resize: none;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #282828;
+    border: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.commentBox {
+    background-color: #fff;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 2px;
+    position: relative;
+    
+}
+.commentBox p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #282828;
+    font-weight: 100;
+}
+.edit-form  {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.edit-form button {
+    width: 30px;
+    height: 25px;
+    color: #282828;
+    background-color: #fff;
+    opacity: 0.7;
+
+}
+.edit-form button:hover {
+    opacity: 1;
+}

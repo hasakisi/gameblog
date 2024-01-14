@@ -1,0 +1,36 @@
+.dropdown-item:hover {
+    transition: 0.4s;
+}
+.nav-link {
+    transition: 0.4s;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+.dropdown-item:hover {
+    background-color: #798ab9;
+}
+/* .btn{
+    background-color: #4156B5;
+    color: #F3F4F7;
+}
+.btn:hover {
+    background-color: #314087;
+} */
+@media screen and (max-width: 1000px) {
+    
+        .nav,form {
+            display: flex;
+            justify-content: center ;
+        }
+
+  }

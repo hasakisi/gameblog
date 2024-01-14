@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" class="h-100" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.118.2">
+    <title>Forza Horizon 4</title>
+    <link rel="stylesheet" href="../css/cover.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+      body {
+        background-image: url("../img/mafiabg.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: -10px;
+      }
+    </style>
+
+  </head>
+
+<body class="d-flex h-100 text-center text-bg-dark">
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div>
+      <h3 class="float-md-end mb-0">Tunay</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-start">
+        <a class="nav-link fw-bold py-1 px-0" href="../main.php">Anasayfa</a>
+        <a class="nav-link fw-bold py-1 px-0" href="#">İletişim</a>
+        <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="../altsayfa/mafia1.php">Mafia 1</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="px-3 mt-auto">
+    <p class="lead mt-5">
+        Bir kafede dedektife hikayesini anlatmaya başlayan ana karakterimiz olan Tommy Angelo ile oynadığımız Mafia 1. Bir adamın taksi şoförü olarak başladığı hikayeyi ileri seviyede ki bir mafia üyesi olarak bitirdiği bir son ile karşı karşıyayız. Kahramanımız Tommy başlarda küçük işlerle başlayıp ağır bir işe geçtiğinde ise psikolojik olarak bir adam öldürmenin kötü etkisini yaşamış lakin hızlı bir şekilde toparlanıp bu mafia hayatının felsefesini anlamış ve düşmanlarına acıma duygusundan yavaş yavaş arınmıştır.Bu sırada da örgüt içindeki ona duyulan güven de artmış ve rütbesi de yükselmeye başlamıştır. Ama oyunun başından da anlayabileceğimiz üzere ana karakterimiz bu örgüte sırtını dönmek durumunda kalmıştır ve polise yaşadığı maceraları, anılarını bir özlemle anlatıyordur.   
+    </p>
+    <!-- <p class="lead">
+      <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
+    </p> -->
+  </main>
+
+  <footer class="mt-auto text-white-50">
+    <p>&copy; 2023 Tunay Yıldız. Tüm hakları saklıdır.</p>
+  </footer>
+</div>
+</body>
+</html>
